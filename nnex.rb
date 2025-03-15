@@ -5,11 +5,8 @@ class Nnex < Formula
     sha256 "5e58342377571185761b16c36b8e19f12621ac7cbf0ff1862d8e93d8bf196717"
     license "MIT"
 
-    depends_on "swift" => :build
-  
     def install
-      system "swift", "build", "-c", "release"
-      bin.install ".build/release/nnex"
+      bin.install "nnex"
     end
   
     test do
