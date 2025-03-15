@@ -1,12 +1,15 @@
 class Nnex < Formula
     desc "Utility to manage and copy Swift project executables"
     homepage "https://github.com/nikolainobadi/NnExecutableKit"
-    url "https://github.com/nikolainobadi/NnExecutableKit/releases/download/v0.5.1/nnex"
-    sha256 "922c68786ff5694e3f0330f0890147a0030ea781e2a8fce90379da01de1da876"
+    url "https://github.com/nikolainobadi/NnExecutableKit/archive/refs/tags/v0.5.1.tar.gz"
+    sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
     license "MIT"
+
+    depends_on "swift" => :build
   
     def install
-      bin.install "nnex"
+      system "swift", "build", "-c", "release"
+      bin.install ".build/release/nnex"
     end
   
     test do
