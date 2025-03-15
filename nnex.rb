@@ -1,8 +1,8 @@
 class Nnex < Formula
     desc "Utility to manage and copy Swift project executables"
     homepage "https://github.com/nikolainobadi/NnExecutableKit"
-    url "https://github.com/nikolainobadi/NnExecutableKit/releases/download/v0.5.0/nnex"
-    sha256 "6e4f27469313cb18f43384111b151f01bacea1aa61a06ae5f3fd1b6d528ed6e4"
+    url "https://github.com/nikolainobadi/NnExecutableKit/releases/download/v0.5.1/nnex"
+    sha256 "922c68786ff5694e3f0330f0890147a0030ea781e2a8fce90379da01de1da876"
     license "MIT"
   
     def install
