@@ -1,8 +1,8 @@
 class Nnex < Formula
     desc "Command line tool to streamline homebrew distribution"
     homepage "https://github.com/nikolainobadi/nnex"
-    url "https://github.com/nikolainobadi/nnex/releases/download/v0.1.0/nnex"
-    sha256 "b396a5d785cfd4c86172b5a829b594342963c85672da13f0ff2a0077fb0109a2"
+    url "https://github.com/nikolainobadi/nnex/releases/download/0.1.1/nnex"
+    sha256 "74c93660e4128050b57468358880c2cde6398c2a2da0d19098cd836612491a10"
     license "MIT"
 
     def install
