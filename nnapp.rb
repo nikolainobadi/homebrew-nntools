@@ -1,8 +1,8 @@
 class Nnapp < Formula
     desc "Utility to easily manage Xcode projects and Swift Packages and quickly launch them from command-line"
     homepage "https://github.com/nikolainobadi/nnapp"
-    url "https://github.com/nikolainobadi/nnapp/releases/download/v0.5.0/nnapp"
-    sha256 "5f7645694fbdc0caff9e996e75578f8bf95f117f95441bd2c55a74b07ed5470f"
+    url "https://github.com/nikolainobadi/nnapp/releases/download/v0.5.1/nnapp"
+    sha256 "f51045282ca87c171083e1071d938814cd828408373fd10b0889390f0db9795c"
     license "MIT"
 
     def install
