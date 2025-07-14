@@ -1,8 +1,8 @@
 class Nnex < Formula
     desc "Command-line tool to streamline Swift executable packaging and distribution with Homebrew"
     homepage "https://github.com/nikolainobadi/nnex"
-    url "https://github.com/nikolainobadi/nnex/releases/download/v0.8.1/nnex"
-    sha256 "df64cedb5e55e383c5e59f95ef9fcf692dc43577968e048561f3f6072a590f01"
+    url "https://github.com/nikolainobadi/nnex/releases/download/v0.8.2/nnex"
+    sha256 "fd8bddf21af86afb9466735b2fa685c5e53e68b483078388fc94b804bab823cb"
     license "MIT"
 
     def install
