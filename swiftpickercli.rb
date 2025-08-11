@@ -1,4 +1,4 @@
-class Swift-Picker-Cli < Formula
+class SwiftPickerCli < Formula
     desc "Command-line tool wrapper around SwiftPicker for single/multi selection in bash scripts"
     homepage "https://github.com/nikolainobadi/SwiftPickerCLI"
     url "https://github.com/nikolainobadi/SwiftPickerCLI/releases/download/v1.0.0/swift-picker-cli"
