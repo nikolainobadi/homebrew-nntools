@@ -1,8 +1,8 @@
 class Nngit < Formula
     desc "Git-wrapper command-line tool"
     homepage "https://github.com/nikolainobadi/nngit"
-    url "https://github.com/nikolainobadi/nngit/releases/download/v0.4.0/nngit"
-    sha256 "35b4c291bff9f2fa5fa42a0dadf95f72d23534d5954acece520cc5264d0b1682"
+    url "https://github.com/nikolainobadi/nngit/releases/download/v0.4.1/nngit"
+    sha256 "f5217a5a62a39c1768f1b40c2d2eb5f81bf03775a52d0d17ba392282412c4dfe"
     license "MIT"
 
     def install
