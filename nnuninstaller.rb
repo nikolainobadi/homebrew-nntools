@@ -5,13 +5,13 @@ class Nnuninstaller < Formula
 
     on_macos do
         on_arm do
-            url "https://github.com/nikolainobadi/nnuninstaller/releases/download/v0.1.0/nnuninstaller-arm64.tar.gz"
-            sha256 "66a897ae9d4dc159432b4fee9bf02a602ee5ac13fb411cdd9d7dac81a18b34c0"
+            url "https://github.com/nikolainobadi/nnuninstaller/releases/download/v0.1.1/nnuninstaller-arm64.tar.gz"
+            sha256 "c0667be3892f138d0dfff92d6f1a1d7b0e02367e1de284f644c1986097072f8a"
         end
 
         on_intel do
-            url "https://github.com/nikolainobadi/nnuninstaller/releases/download/v0.1.0/nnuninstaller-x86_64.tar.gz"
-            sha256 "fd698bd62a8f7564cbdbbbf7486ca1ccd5e9a92194b66c80d4723b9eef5c890b"
+            url "https://github.com/nikolainobadi/nnuninstaller/releases/download/v0.1.1/nnuninstaller-x86_64.tar.gz"
+            sha256 "a1eeb88e958cf577b15ec26b4ce3a2abb570d7e3c53a55a780e324519e66eb88"
         end
     end
 
