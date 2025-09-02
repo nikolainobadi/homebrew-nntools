@@ -5,13 +5,13 @@ class Nngit < Formula
 
     on_macos do
         on_arm do
-            url "https://github.com/nikolainobadi/nngit/releases/download/v0.5.2/nngit-arm64.tar.gz"
-            sha256 "9b1b3d019b9f84d3bbaa9fe9e726087256d8db33c9f07993d82297a65b0ed4b5"
+            url "https://github.com/nikolainobadi/nngit/releases/download/v0.6.0/nngit-arm64.tar.gz"
+            sha256 "bd889bcb0a94505d52f3e3cfb24ca430d668e238e0e8e14502e3b74475a502fb"
         end
 
         on_intel do
-            url "https://github.com/nikolainobadi/nngit/releases/download/v0.5.2/nngit-x86_64.tar.gz"
-            sha256 "c93cf390d6768065245adc6ef7ed6bf8a2cdb1f10166d2ed7f3a41670d706bc6"
+            url "https://github.com/nikolainobadi/nngit/releases/download/v0.6.0/nngit-x86_64.tar.gz"
+            sha256 "6938b6fc010be92ab0acdfe1a24ca15fc34ff5c2aa649850db5a2839364103f6"
         end
     end
 
