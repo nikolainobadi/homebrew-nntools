@@ -5,13 +5,13 @@ class Nnex < Formula
 
     on_macos do
         on_arm do
-            url "https://github.com/nikolainobadi/nnex/releases/download/v0.9.4/Nnex-arm64.tar.gz"
-            sha256 "38e3c7167c99a039eeb5a9fb6e78c7ca96caf37df7eb6f0fadd8f314baa6272c"
+            url "https://github.com/nikolainobadi/nnex/releases/download/v0.9.5/Nnex-arm64.tar.gz"
+            sha256 "04fc6ee898cd3ac2beffa6c64ef972b19c15c4686d3ae316a004e7fce2359e02"
         end
 
         on_intel do
-            url "https://github.com/nikolainobadi/nnex/releases/download/v0.9.4/Nnex-x86_64.tar.gz"
-            sha256 "7d53edbced78aadfcf81aa720ef456c010337cb524640fe6a8ce2c295a20001a"
+            url "https://github.com/nikolainobadi/nnex/releases/download/v0.9.5/Nnex-x86_64.tar.gz"
+            sha256 "52398f09e7557764642bce7d8c96cd2a761e19b8a7111710e88d623e2bcffd34"
         end
     end
 
