@@ -5,13 +5,13 @@ class Nnpurge < Formula
 
     on_macos do
         on_arm do
-            url "https://github.com/CodePurge/nnpurge/releases/download/v0.2.0/nnpurge-arm64.tar.gz"
-            sha256 "9f3802a966fc09c9d8aac17e1f2b98e8cd2afa9f6b01e20645b1a483a39ddc88"
+            url "https://github.com/CodePurge/nnpurge/releases/download/v0.2.1/nnpurge-arm64.tar.gz"
+            sha256 "3aacfce1fc470be1029328bda96a17961a1b17f01f033309ca1f93b1ed1c76cb"
         end
 
         on_intel do
-            url "https://github.com/CodePurge/nnpurge/releases/download/v0.2.0/nnpurge-x86_64.tar.gz"
-            sha256 "5f0e41f9bdb031035768cf6362d077a64c0be619d7768b348c65bbaa1ba259bc"
+            url "https://github.com/CodePurge/nnpurge/releases/download/v0.2.1/nnpurge-x86_64.tar.gz"
+            sha256 "166261f80dfa80196adf12b34c502a669654f5d171eb2f4980ff94159daacb0f"
         end
     end
 
